@@ -22,7 +22,7 @@
   },
   "Test": {
     "start_date_month": 11,
-    "start_date_day": 6,
+    "start_date_day": 24,
     "start_date_year": 2024,
     "msg_every_x_weeks": 1,
     "msg": "Expect This msg on sunday"

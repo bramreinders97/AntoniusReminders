@@ -14,8 +14,6 @@ jobs:
       # Step 1: Checkout the repository
       - name: Checkout repository
         uses: actions/checkout@v3
-        with:
-          ref: telegram  # Ensure the 'telegram' branch is checked out
 
       # Step 2: Set up Python
       - name: Set up Python

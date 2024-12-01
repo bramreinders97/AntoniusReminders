@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "auto-whapp"
+version = "0.0.0"
+description = ""
+authors = ["Br <bramreinders97@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.10.0"
+pywhatkit = "^5.4"
+selenium = "^4.27.1"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+

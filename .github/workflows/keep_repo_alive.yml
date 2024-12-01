@@ -1,0 +1,26 @@
+name: Keep Repository Active
+
+on:
+  schedule:
+    - cron: '0 0 1 * *' # Runs on the 1st of every month
+  workflow_dispatch:  # Allow manual triggering of the workflow
+
+jobs:
+  keep-active:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+
+      - name: Update timestamp file
+        run: |
+          echo "Last run: $(date)" > keepalive.txt
+
+      - name: Commit changes
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git add keepalive.txt
+          git commit -m "Update keepalive timestamp"
+          git push

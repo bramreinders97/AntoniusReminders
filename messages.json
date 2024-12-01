@@ -1,16 +1,23 @@
 {
-  "Test": {
+  "Papier_Karton": {
     "start_date_month": 11,
     "start_date_day": 24,
     "start_date_year": 2024,
-    "msg_every_x_weeks": 1,
-    "msg": "Reminder: Test moet naar de straat"
+    "msg_every_x_weeks": 4,
+    "msg": "Reminder: Papier en Karton moet naar de straat!"
   },
-  "Test2": {
+  "Restafval": {
     "start_date_month": 11,
-    "start_date_day": 24,
+    "start_date_day": 27,
     "start_date_year": 2024,
     "msg_every_x_weeks": 2,
-    "msg": "Reminder: Test2 moet naar de straat"
+    "msg": "Reminder: Restafval moet naar de straat!"
+  },
+  "GFT": {
+    "start_date_month": 11,
+    "start_date_day": 6,
+    "start_date_year": 2024,
+    "msg_every_x_weeks": 2,
+    "msg": "Reminder: GFT moet naar de straat!"
   }
 }

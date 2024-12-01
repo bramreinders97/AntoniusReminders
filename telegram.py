@@ -5,6 +5,7 @@ from send_msg import send_msg
 from check_if_need_msg import is_message_date
 import json
 
+# Get path to json file
 current_dir = os.path.dirname(os.path.abspath(__file__))
 file_path = os.path.join(current_dir, "messages.json")
 
@@ -25,6 +26,7 @@ for kind, msg_info in message_data.items():
     ):
         send_msg(
             msg=msg_info["msg"],
+            kind=kind
         )
     else:
         print(f"No need to send msg for reminder on {kind}")

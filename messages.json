@@ -19,19 +19,5 @@
     "start_date_year": 2024,
     "msg_every_x_weeks": 2,
     "msg": "Reminder: GFT moet naar de straat!"
-  },
-  "Test": {
-    "start_date_month": 11,
-    "start_date_day": 24,
-    "start_date_year": 2024,
-    "msg_every_x_weeks": 1,
-    "msg": "Expect This msg on sunday"
-  },
-  "Test2": {
-    "start_date_month": 11,
-    "start_date_day": 4,
-    "start_date_year": 2024,
-    "msg_every_x_weeks": 1,
-    "msg": "Expect This msg on monday"
   }
 }

@@ -27,10 +27,20 @@ jobs:
           python -m pip install --upgrade pip
           pip install requests  # Assuming the script uses requests
 
-      # Step 4: Execute the script
+      # Step 4: Set CHAT_ID based on trigger type
+      - name: Set Chat ID
+        id: set-chat-id
+        run: |
+          if [ "${{ github.event_name }}" == "workflow_dispatch" ]; then
+            echo "CHAT_ID=${{ secrets.TEST_CHAT_ID }}" >> $GITHUB_ENV
+          else
+            echo "CHAT_ID=${{ secrets.CHAT_ID }}" >> $GITHUB_ENV
+          fi
+
+      # Step 5: Execute the script
       - name: Run Telegram Bot Script
         env:
           BOT_TOKEN: ${{ secrets.BOT_TOKEN }}
-          CHAT_ID: ${{ secrets.CHAT_ID }}
+          CHAT_ID: ${{ env.CHAT_ID }}
         run: |
           python telegram.py

@@ -22,7 +22,7 @@ for kind, msg_info in message_data.items():
             msg_info["start_date_month"],
             msg_info["start_date_day"],
         ),
-        msg_every_x_weeks=msg_info["msg_every_x_weeks"]
+        msg_every_x_days=msg_info["msg_every_x_days"]
     ):
         send_msg(
             msg=msg_info["msg"],

@@ -3,21 +3,84 @@
     "start_date_month": 11,
     "start_date_day": 24,
     "start_date_year": 2024,
-    "msg_every_x_weeks": 4,
+    "msg_every_x_days": 28,
     "msg": "Reminder: Papier en Karton moet naar de straat!"
   },
   "Restafval": {
     "start_date_month": 11,
     "start_date_day": 27,
     "start_date_year": 2024,
-    "msg_every_x_weeks": 2,
+    "msg_every_x_days": 14,
     "msg": "Reminder: Restafval moet naar de straat!"
   },
   "GFT": {
     "start_date_month": 11,
     "start_date_day": 6,
     "start_date_year": 2024,
-    "msg_every_x_weeks": 2,
+    "msg_every_x_days": 14,
     "msg": "Reminder: GFT moet naar de straat!"
+  },
+  "Poets1": {
+    "start_date_month": 12,
+    "start_date_day": 6,
+    "start_date_year": 2024,
+    "msg_every_x_days": 28,
+    "msg": "Poetstaken dit weekend:\n\nKeuken/Woonkamer: Charlie\nBadkamer: Anne\nChill: Bram\nGang/Zolder: Lotte"
+  },
+  "Poets2": {
+    "start_date_month": 12,
+    "start_date_day": 13,
+    "start_date_year": 2024,
+    "msg_every_x_days": 28,
+    "msg": "Poetstaken dit weekend:\n\nKeuken/Woonkamer: Lotte\nBadkamer: Charlie\nChill: Anne\nGang/Zolder: Bram"
+  },
+  "Poets3": {
+    "start_date_month": 12,
+    "start_date_day": 20,
+    "start_date_year": 2024,
+    "msg_every_x_days": 28,
+    "msg": "Poetstaken dit weekend:\n\nKeuken/Woonkamer: Bram\nBadkamer: Lotte\nChill: Charlie\nGang/Zolder: Anne"
+  },
+  "Poets4": {
+    "start_date_month": 12,
+    "start_date_day": 27,
+    "start_date_year": 2024,
+    "msg_every_x_days": 28,
+    "msg": "Poetstaken dit weekend:\n\nKeuken/Woonkamer: Anne\nBadkamer: Bram\nChill: Lotte\nGang/Zolder: Charlie"
+  },
+  "Kattenbak1": {
+    "start_date_month": 12,
+    "start_date_day": 9,
+    "start_date_year": 2024,
+    "msg_every_x_days": 4,
+    "msg": "Vandaag kattenbak schoonmaken: Bram"
+  },
+  "Kattenbak2": {
+    "start_date_month": 12,
+    "start_date_day": 10,
+    "start_date_year": 2024,
+    "msg_every_x_days": 4,
+    "msg": "Vandaag kattenbak schoonmaken: Anne"
+  },
+  "Kattenbak3": {
+    "start_date_month": 12,
+    "start_date_day": 11,
+    "start_date_year": 2024,
+    "msg_every_x_days": 4,
+    "msg": "Vandaag kattenbak schoonmaken: Charlie"
+  },
+  "Kattenbak4": {
+    "start_date_month": 12,
+    "start_date_day": 12,
+    "start_date_year": 2024,
+    "msg_every_x_days": 4,
+    "msg": "Vandaag kattenbak schoonmaken: Lotte"
+  },
+  "Kattenbak5": {
+    "start_date_month": 12,
+    "start_date_day": 8,
+    "start_date_year": 2024,
+    "msg_every_x_days": 7,
+    "msg": "Vandaag kattenbak grind vervangen!"
   }
 }

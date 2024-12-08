@@ -1,13 +1,14 @@
 import os.path
 from datetime import datetime
 
-from send_msg import send_msg
-from check_if_need_msg import is_message_date
+from .send_msg import send_msg
+from .check_if_need_msg import is_message_date
 import json
 
-# Get path to json file
+# Get path to messages.json
 current_dir = os.path.dirname(os.path.abspath(__file__))
-file_path = os.path.join(current_dir, "messages.json")
+parent_dir = os.path.abspath(os.path.join(current_dir, "..", ".."))
+file_path = os.path.join(parent_dir, "messages.json")
 
 # Load the JSON file containing message info
 with open(file_path, 'r') as file:

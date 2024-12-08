@@ -3,6 +3,3 @@
 .idea/
 .venv/
 .env
-
-get_chat_id.py
-test.py

@@ -2,7 +2,7 @@ name: S2
 
 on:
   schedule:
-    - cron: "35 15 15 12 *"
+    - cron: "35 11 15 12 *"
 
 permissions:
   contents: write

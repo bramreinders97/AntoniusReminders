@@ -43,4 +43,4 @@ jobs:
           BOT_TOKEN: ${{ secrets.BOT_TOKEN }}
           CHAT_ID: ${{ env.CHAT_ID }}
         run: |
-          python -m src.antonius_reminders.telegram
+          python -m src.antonius_reminders.main

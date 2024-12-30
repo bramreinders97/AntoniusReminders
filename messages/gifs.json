@@ -12,5 +12,12 @@
     "start_date_year": 2025,
     "msg_every_x_days": 99999999999999999,
     "url": "https://i.giphy.com/media/v1.Y2lkPTc5MGI3NjExZTMzdzNuODZ2aTJ6ZWx0d3cwb3Y2aGdvN2FjNXF2YXdiYTIwOTV2eCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/dFLLqmtWiWC81tlBqE/giphy.gif"
+  },
+  "AnneBday": {
+    "start_date_month": 2,
+    "start_date_day": 6,
+    "start_date_year": 2025,
+    "msg_every_x_days": 99999999999999999,
+    "url": "https://i.giphy.com/media/v1.Y2lkPTc5MGI3NjExZnU5NDkxcXF0MGw4eHkzM3FqNnhhM2o4Y3p5dGdwNW1lZ2JtNzUzYiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/uS5LDMfmCtW1tCm6Cq/giphy.gif"
   }
 }

@@ -1,40 +1,55 @@
-import os
+"""AntoniusRemindersBot class."""
+
 import json
-from typing import Optional, Union
+import os
 from datetime import datetime
-from .Messages import TextMessage, Gif
+from typing import Literal, Optional, Union
+
+from .Messages import Gif, TextMessage
 
 
 def _get_messages_path(filename: str) -> str:
-    """
-    Determines the path to the messages.json file.
+    """Determines the path to the json file containing the data of the messages.
+
+    Args:
+        filename (str): The base name of the JSON file without extension.
 
     Returns:
-        str: The absolute path to the messages.json file.
+        str: The absolute path to the JSON file.
     """
     current_dir = os.path.dirname(os.path.abspath(__file__))
     parent_dir = os.path.abspath(os.path.join(current_dir, "..", ".."))
-    return os.path.join(parent_dir, "messages",  f"{filename}.json")
+    return os.path.join(parent_dir, "messages", f"{filename}.json")
 
 
 class AntoniusRemindersBot:
+    """A bot for managing and sending reminder messages."""
 
-    def __init__(self):
-        """
-        Initializes the RemindersBot by loading environment variables and messages.
-        """
-        self.text_messages = self._read_json_info(message_type='text_messages')
-        self.gifs = self._read_json_info(message_type='gifs')
+    def __init__(self) -> None:
+        """Initializes AntoniusRemindersBot with text and GIF messages."""
+        self.text_messages = self._read_json_info(message_type="text_messages")
+        self.gifs = self._read_json_info(message_type="gifs")
         self.all_messages = self.text_messages + self.gifs
 
     @staticmethod
-    def _read_json_info(message_type: str) -> list[Union[TextMessage, Gif]]:
-        with open(_get_messages_path(message_type), 'r') as file:
+    def _read_json_info(
+        message_type: Literal["text_messages", "gifs"]
+    ) -> list[Union[TextMessage, Gif]]:
+        """Reads message information from a JSON file and returns it as objects.
+
+        Args:
+            message_type (Literal["text_messages", "gifs"]): The type of messages to read.
+                Must be either "text_messages" or "gifs".
+
+        Returns:
+            list[Union[TextMessage, Gif]]: A list of message objects corresponding to the specified type.
+        """
+        with open(_get_messages_path(message_type), "r") as file:
             message_data = json.load(file)
 
         messages = []
         for kind, msg_info in message_data.items():
-            if message_type == 'text_messages':
+            if message_type == "text_messages":
                 messages.append(
                     TextMessage(
                         start_date=datetime(
@@ -47,7 +62,7 @@ class AntoniusRemindersBot:
                         msg=msg_info["msg"],
                     )
                 )
-            elif message_type == 'gifs':
+            elif message_type == "gifs":
                 messages.append(
                     Gif(
                         start_date=datetime(
@@ -60,16 +75,18 @@ class AntoniusRemindersBot:
                         url=msg_info["url"],
                     )
                 )
-
         return messages
 
+    def send_messages_of_the_day(
+        self, date: Optional[datetime] = datetime.now()
+    ) -> None:
+        """Sends messages scheduled for a given date.
 
-
-
-    def send_messages_of_the_day(self, date: Optional[datetime] = datetime.now()) -> None:
+        Args:
+            date (Optional[datetime]): The target date for sending messages. Defaults to the current date.
+        """
         for msg in self.all_messages:
             if msg.check_if_should_be_sent(date):
                 msg.send()
             else:
                 print(f"No need to send msg for reminder on {msg.kind}")
-

@@ -8,6 +8,25 @@ authors = ["Br <bramreinders97@gmail.com>"]
 python = "^3.10.0"
 requests = "^2.32.3"
 
+[tool.poetry.group.dev.dependencies]
+black = "^24.4.0"
+isort = "^5.13.2"
+pyproject-flake8 = "^7.0.0"
+flake8-black = "^0.3.6"
+flake8-isort = "^6.1.1"
+flake8-annotations = "^3.0.1"
+flake8-docstrings = "^1.7.0"
+
+[tool.flake8]
+select = ["DAR","BLK","C","D","E","I","F","W","ANN"]
+docstring-convention = "google"
+ignore = ["E203","W503","I201","I100", "E501", "D107", "ANN101"]
+max-line-length = 88
+
+[tool.isort]
+profile = "black"
+multi_line_output = 3
+
 [build-system]
 requires = ["poetry-core"]
 build-backend = "poetry.core.masonry.api"

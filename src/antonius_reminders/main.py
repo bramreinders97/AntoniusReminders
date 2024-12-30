@@ -1,3 +1,5 @@
+"""Functionality running in production."""
+
 from .AntoniusRemindersBot import AntoniusRemindersBot
 
 # Initialize the RemindersBot instance

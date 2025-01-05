@@ -2,6 +2,7 @@
 
 import json
 import os
+import time
 from datetime import datetime
 from typing import Literal, Optional, Union
 
@@ -88,5 +89,6 @@ class AntoniusRemindersBot:
         for msg in self.all_messages:
             if msg.check_if_should_be_sent(date):
                 msg.send()
+                time.sleep(5)  # Avoid too many requests error
             else:
                 print(f"No need to send msg for reminder on {msg.kind}")

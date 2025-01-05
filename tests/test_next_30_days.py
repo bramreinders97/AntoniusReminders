@@ -13,7 +13,7 @@ def send_single_msg(text: str) -> None:
     """Send a single message in telegram."""
     requests.post(
         url=f"https://api.telegram.org/bot{BOT_TOKEN}/sendMessage",
-        data={"chat_id": CHAT_ID, "text": text},
+        data={"chat_id": CHAT_ID, "text": text, "parse_mode": "MarkdownV2"},
     )
 
 

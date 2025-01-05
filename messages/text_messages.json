@@ -4,21 +4,21 @@
     "start_date_day": 24,
     "start_date_year": 2024,
     "msg_every_x_days": 28,
-    "msg": "Reminder: Papier en Karton moet naar de straat!"
+    "msg": "Reminder: Papier en Karton moet naar de straat\\!"
   },
   "Restafval": {
     "start_date_month": 11,
     "start_date_day": 27,
     "start_date_year": 2024,
     "msg_every_x_days": 14,
-    "msg": "Reminder: Restafval moet naar de straat!"
+    "msg": "Reminder: Restafval moet naar de straat\\!"
   },
   "GFT": {
     "start_date_month": 1,
     "start_date_day": 15,
     "start_date_year": 2025,
     "msg_every_x_days": 14,
-    "msg": "Reminder: GFT moet naar de straat!"
+    "msg": "Reminder: GFT moet naar de straat\\!"
   },
   "Poets1": {
     "start_date_month": 12,
@@ -50,14 +50,14 @@
   },
   "Kattenbak1": {
     "start_date_month": 1,
-    "start_date_day": 22,
+    "start_date_day": 21,
     "start_date_year": 2025,
     "msg_every_x_days": 4,
     "msg": "Vandaag kattenbak schoonmaken: Bram"
   },
   "Kattenbak2": {
     "start_date_month": 1,
-    "start_date_day": 21,
+    "start_date_day": 22,
     "start_date_year": 2025,
     "msg_every_x_days": 4,
     "msg": "Vandaag kattenbak schoonmaken: Anne"
@@ -81,13 +81,48 @@
     "start_date_day": 25,
     "start_date_year": 2025,
     "msg_every_x_days": 7,
-    "msg": "Vandaag kattenbak grind vervangen!"
+    "msg": "Vandaag kattenbak grind vervangen\\!"
   },
   "AsielFeestMessage": {
     "start_date_month": 1,
     "start_date_day": 17,
     "start_date_year": 2025,
     "msg_every_x_days": 99999999999999999,
-    "msg": "Morgen naar het asiel! Woohoo!"
+    "msg": "Morgen naar het asiel\\! Woohoo\\!"
+  },
+  "PompClean1": {
+    "start_date_month": 2,
+    "start_date_day": 2,
+    "start_date_year": 2025,
+    "msg_every_x_days": 56,
+    "msg": "Pomp drinkfontein schoonmaken: Anne\n\nZie [instructies](https://raw\\.githubusercontent\\.com/bramreinders97/AntoniusReminders/master/images/clean_pomp_instructions\\.jpg)"
+  },
+  "PompClean2": {
+    "start_date_month": 2,
+    "start_date_day": 16,
+    "start_date_year": 2025,
+    "msg_every_x_days": 56,
+    "msg": "Pomp drinkfontein schoonmaken: Bram\n\nZie [instructies](https://raw\\.githubusercontent\\.com/bramreinders97/AntoniusReminders/master/images/clean_pomp_instructions\\.jpg)"
+  },
+  "PompClean3": {
+    "start_date_month": 3,
+    "start_date_day": 2,
+    "start_date_year": 2025,
+    "msg_every_x_days": 56,
+    "msg": "Pomp drinkfontein schoonmaken: Lotte\n\nZie [instructies](https://raw\\.githubusercontent\\.com/bramreinders97/AntoniusReminders/master/images/clean_pomp_instructions\\.jpg)"
+  },
+  "PompClean4": {
+    "start_date_month": 3,
+    "start_date_day": 16,
+    "start_date_year": 2025,
+    "msg_every_x_days": 56,
+    "msg": "Pomp drinkfontein schoonmaken: Charlie\n\nZie [instructies](https://raw\\.githubusercontent\\.com/bramreinders97/AntoniusReminders/master/images/clean_pomp_instructions\\.jpg)"
+  },
+  "FreshWater": {
+    "start_date_month": 1,
+    "start_date_day": 21,
+    "start_date_year": 2025,
+    "msg_every_x_days": 5,
+    "msg": "Vers water voor de kat\\!"
   }
 }

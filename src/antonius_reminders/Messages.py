@@ -70,7 +70,7 @@ class TextMessage(Message):
 
     def send(self) -> None:
         """Sends the text message."""
-        data = {"chat_id": CHAT_ID, "text": self.msg}
+        data = {"chat_id": CHAT_ID, "text": self.msg, "parse_mode": "MarkdownV2"}
         super()._send("sendMessage", data)
 
 

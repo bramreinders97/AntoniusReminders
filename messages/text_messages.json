@@ -125,7 +125,7 @@
     "msg_every_x_days": 5,
     "msg": "Vers water voor de kat\\!"
   },
-  "FreshWater": {
+  "KatPil": {
     "start_date_month": 6,
     "start_date_day": 12,
     "start_date_year": 2025,

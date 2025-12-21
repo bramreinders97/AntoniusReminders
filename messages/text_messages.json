@@ -150,5 +150,13 @@
     "msg_every_x_days": 90,
     "msg": "Katto ontwormingspil geven\\!",
     "chat_name": "Antonius"
+  },
+  "TestG": {
+    "start_date_month": 6,
+    "start_date_day": 12,
+    "start_date_year": 2025,
+    "msg_every_x_days": 1,
+    "msg": "Test goudenregen\\!",
+    "chat_name": "Goudenregen"
   }
 }

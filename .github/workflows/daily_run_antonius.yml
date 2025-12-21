@@ -1,0 +1,16 @@
+name: Daily Telegram Bot – Antonius
+
+on:
+  schedule:
+    - cron: '0 10 * * *'
+  workflow_dispatch:
+
+jobs:
+  run:
+    uses: ./.github/workflows/telegram_template.yml
+    with:
+      CHAT_NAME: "Antonius"
+    secrets:
+      CHAT_ID: ${{ secrets.CHAT_ID }}
+      TEST_CHAT_ID: ${{ secrets.TEST_CHAT_ID }}
+      BOT_TOKEN: ${{ secrets.BOT_TOKEN }}

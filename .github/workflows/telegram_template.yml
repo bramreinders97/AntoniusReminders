@@ -1,4 +1,4 @@
-name: Daily Telegram Bot | reusable template
+name: Daily Telegram Bot - reusable template
 
 on:
   workflow_call:

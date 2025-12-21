@@ -1,33 +1,40 @@
-name: Test next 30 days
+name: Test next 30 days – reusable template
 
 on:
-  workflow_dispatch:  # Allow manual triggering of the workflow
+  workflow_call:
+    inputs:
+      CHAT_NAME:
+        description: "Logical name of the chat"
+        required: true
+        type: string
+    secrets:
+      CHAT_ID:
+        required: true
+      BOT_TOKEN:
+        required: true
 
 jobs:
   test-next-30-days:
     runs-on: ubuntu-latest
 
     steps:
-      # Step 1: Checkout the repository
       - name: Checkout repository
         uses: actions/checkout@v3
 
-      # Step 2: Set up Python
       - name: Set up Python
         uses: actions/setup-python@v4
         with:
           python-version: '3.x'
 
-      # Step 3: Install dependencies
       - name: Install dependencies
         run: |
           python -m pip install --upgrade pip
-          pip install requests  # Assuming the script uses requests
+          pip install requests
 
-      # Step 4: Execute the test script with environment variables
       - name: Run Test Script
         env:
-          CHAT_ID: ${{ secrets.TEST_CHAT_ID }}
+          CHAT_ID: ${{ secrets.CHAT_ID }}
           BOT_TOKEN: ${{ secrets.BOT_TOKEN }}
+          CHAT_NAME: ${{ inputs.CHAT_NAME }}
         run: |
           python -m tests.test_next_30_days

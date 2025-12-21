@@ -61,6 +61,7 @@ class AntoniusRemindersBot:
                         msg_every_x_days=msg_info["msg_every_x_days"],
                         kind=kind,
                         msg=msg_info["msg"],
+                        chat_name=msg_info["chat_name"],
                     )
                 )
             elif message_type == "gifs":
@@ -74,6 +75,7 @@ class AntoniusRemindersBot:
                         msg_every_x_days=msg_info["msg_every_x_days"],
                         kind=kind,
                         url=msg_info["url"],
+                        chat_name=msg_info["chat_name"],
                     )
                 )
         return messages

@@ -4,132 +4,151 @@
     "start_date_day": 24,
     "start_date_year": 2024,
     "msg_every_x_days": 28,
-    "msg": "Reminder: Papier en Karton moet naar de straat\\!"
+    "msg": "Reminder: Papier en Karton moet naar de straat\\!",
+    "chat_name": "Antonius"
   },
   "Restafval": {
     "start_date_month": 11,
     "start_date_day": 27,
     "start_date_year": 2024,
     "msg_every_x_days": 14,
-    "msg": "Reminder: Restafval moet naar de straat\\!"
+    "msg": "Reminder: Restafval moet naar de straat\\!",
+    "chat_name": "Antonius"
   },
   "GFT": {
     "start_date_month": 1,
     "start_date_day": 15,
     "start_date_year": 2025,
     "msg_every_x_days": 14,
-    "msg": "Reminder: GFT moet naar de straat\\!"
+    "msg": "Reminder: GFT moet naar de straat\\!",
+    "chat_name": "Antonius"
   },
   "Poets1": {
     "start_date_month": 12,
     "start_date_day": 6,
     "start_date_year": 2024,
     "msg_every_x_days": 28,
-    "msg": "Poetstaken dit weekend:\n\nKeuken/Woonkamer: Charlie\nBadkamer: Anne\nChill: Bram\nGang/Zolder: Lotte"
+    "msg": "Poetstaken dit weekend:\n\nKeuken/Woonkamer: Charlie\nBadkamer: Anne\nChill: Bram\nGang/Zolder: Lotte",
+    "chat_name": "Antonius"
   },
   "Poets2": {
     "start_date_month": 12,
     "start_date_day": 13,
     "start_date_year": 2024,
     "msg_every_x_days": 28,
-    "msg": "Poetstaken dit weekend:\n\nKeuken/Woonkamer: Lotte\nBadkamer: Charlie\nChill: Anne\nGang/Zolder: Bram"
+    "msg": "Poetstaken dit weekend:\n\nKeuken/Woonkamer: Lotte\nBadkamer: Charlie\nChill: Anne\nGang/Zolder: Bram",
+    "chat_name": "Antonius"
   },
   "Poets3": {
     "start_date_month": 12,
     "start_date_day": 20,
     "start_date_year": 2024,
     "msg_every_x_days": 28,
-    "msg": "Poetstaken dit weekend:\n\nKeuken/Woonkamer: Bram\nBadkamer: Lotte\nChill: Charlie\nGang/Zolder: Anne"
+    "msg": "Poetstaken dit weekend:\n\nKeuken/Woonkamer: Bram\nBadkamer: Lotte\nChill: Charlie\nGang/Zolder: Anne",
+    "chat_name": "Antonius"
   },
   "Poets4": {
     "start_date_month": 12,
     "start_date_day": 27,
     "start_date_year": 2024,
     "msg_every_x_days": 28,
-    "msg": "Poetstaken dit weekend:\n\nKeuken/Woonkamer: Anne\nBadkamer: Bram\nChill: Lotte\nGang/Zolder: Charlie"
+    "msg": "Poetstaken dit weekend:\n\nKeuken/Woonkamer: Anne\nBadkamer: Bram\nChill: Lotte\nGang/Zolder: Charlie",
+    "chat_name": "Antonius"
   },
   "Kattenbak1": {
     "start_date_month": 1,
     "start_date_day": 21,
     "start_date_year": 2025,
     "msg_every_x_days": 4,
-    "msg": "Vandaag kattenbak schoonmaken: Bram"
+    "msg": "Vandaag kattenbak schoonmaken: Bram",
+    "chat_name": "Antonius"
   },
   "Kattenbak2": {
     "start_date_month": 1,
     "start_date_day": 22,
     "start_date_year": 2025,
     "msg_every_x_days": 4,
-    "msg": "Vandaag kattenbak schoonmaken: Anne"
+    "msg": "Vandaag kattenbak schoonmaken: Anne",
+    "chat_name": "Antonius"
   },
   "Kattenbak3": {
     "start_date_month": 1,
     "start_date_day": 20,
     "start_date_year": 2025,
     "msg_every_x_days": 4,
-    "msg": "Vandaag kattenbak schoonmaken: Charlie"
+    "msg": "Vandaag kattenbak schoonmaken: Charlie",
+    "chat_name": "Antonius"
   },
   "Kattenbak4": {
     "start_date_month": 1,
     "start_date_day": 19,
     "start_date_year": 2025,
     "msg_every_x_days": 4,
-    "msg": "Vandaag kattenbak schoonmaken: Lotte"
+    "msg": "Vandaag kattenbak schoonmaken: Lotte",
+    "chat_name": "Antonius"
   },
   "Kattenbak5": {
     "start_date_month": 1,
     "start_date_day": 25,
     "start_date_year": 2025,
     "msg_every_x_days": 7,
-    "msg": "Vandaag kattenbak grind vervangen, en reflectie kattenluik poetsen\\!"
+    "msg": "Vandaag kattenbak grind vervangen, en reflectie kattenluik poetsen\\!",
+    "chat_name": "Antonius"
   },
   "AsielFeestMessage": {
     "start_date_month": 1,
     "start_date_day": 17,
     "start_date_year": 2025,
     "msg_every_x_days": 99999999999999999,
-    "msg": "Morgen naar het asiel\\! Woohoo\\!"
+    "msg": "Morgen naar het asiel\\! Woohoo\\!",
+    "chat_name": "Antonius"
   },
   "PompClean1": {
     "start_date_month": 2,
     "start_date_day": 2,
     "start_date_year": 2025,
     "msg_every_x_days": 56,
-    "msg": "Pomp drinkfontein schoonmaken: Anne\n\nZie [instructies](https://raw\\.githubusercontent\\.com/bramreinders97/AntoniusReminders/master/images/clean_pomp_instructions\\.jpg)"
+    "msg": "Pomp drinkfontein schoonmaken: Anne\n\nZie [instructies](https://raw\\.githubusercontent\\.com/bramreinders97/AntoniusReminders/master/images/clean_pomp_instructions\\.jpg)",
+    "chat_name": "Antonius"
   },
   "PompClean2": {
     "start_date_month": 2,
     "start_date_day": 16,
     "start_date_year": 2025,
     "msg_every_x_days": 56,
-    "msg": "Pomp drinkfontein schoonmaken: Bram\n\nZie [instructies](https://raw\\.githubusercontent\\.com/bramreinders97/AntoniusReminders/master/images/clean_pomp_instructions\\.jpg)"
+    "msg": "Pomp drinkfontein schoonmaken: Bram\n\nZie [instructies](https://raw\\.githubusercontent\\.com/bramreinders97/AntoniusReminders/master/images/clean_pomp_instructions\\.jpg)",
+    "chat_name": "Antonius"
   },
   "PompClean3": {
     "start_date_month": 3,
     "start_date_day": 2,
     "start_date_year": 2025,
     "msg_every_x_days": 56,
-    "msg": "Pomp drinkfontein schoonmaken: Lotte\n\nZie [instructies](https://raw\\.githubusercontent\\.com/bramreinders97/AntoniusReminders/master/images/clean_pomp_instructions\\.jpg)"
+    "msg": "Pomp drinkfontein schoonmaken: Lotte\n\nZie [instructies](https://raw\\.githubusercontent\\.com/bramreinders97/AntoniusReminders/master/images/clean_pomp_instructions\\.jpg)",
+    "chat_name": "Antonius"
   },
   "PompClean4": {
     "start_date_month": 3,
     "start_date_day": 16,
     "start_date_year": 2025,
     "msg_every_x_days": 56,
-    "msg": "Pomp drinkfontein schoonmaken: Charlie\n\nZie [instructies](https://raw\\.githubusercontent\\.com/bramreinders97/AntoniusReminders/master/images/clean_pomp_instructions\\.jpg)"
+    "msg": "Pomp drinkfontein schoonmaken: Charlie\n\nZie [instructies](https://raw\\.githubusercontent\\.com/bramreinders97/AntoniusReminders/master/images/clean_pomp_instructions\\.jpg)",
+    "chat_name": "Antonius"
   },
   "FreshWater": {
     "start_date_month": 1,
     "start_date_day": 21,
     "start_date_year": 2025,
     "msg_every_x_days": 5,
-    "msg": "Vers water voor de kat\\!"
+    "msg": "Vers water voor de kat\\!",
+    "chat_name": "Antonius"
   },
   "KatPil": {
     "start_date_month": 6,
     "start_date_day": 12,
     "start_date_year": 2025,
     "msg_every_x_days": 90,
-    "msg": "Katto ontwormingspil geven\\!"
+    "msg": "Katto ontwormingspil geven\\!",
+    "chat_name": "Antonius"
   }
 }

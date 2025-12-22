@@ -71,12 +71,76 @@
     "msg": "Katto ontwormingspil geven\\!",
     "chat_name": "Antonius"
   },
-  "TestG": {
-    "start_date_month": 6,
-    "start_date_day": 12,
-    "start_date_year": 2025,
-    "msg_every_x_days": 1,
-    "msg": "Test goudenregen\\!",
+  "Restafval_G": {
+    "start_date_month": 1,
+    "start_date_day": 7,
+    "start_date_year": 2026,
+    "msg_every_x_days": 14,
+    "msg": "Restafval naar buiten\\!",
+    "chat_name": "Goudenregen"
+  },
+  "Restafval_exception1": {
+    "start_date_month": 5,
+    "start_date_day": 13,
+    "start_date_year": 2026,
+    "msg_every_x_days": 999999,
+    "msg": "Nvm, geen rest vandaag\\!",
+    "chat_name": "Goudenregen"
+  },
+  "Restafval_exception2": {
+    "start_date_month": 5,
+    "start_date_day": 15,
+    "start_date_year": 2026,
+    "msg_every_x_days": 999999,
+    "msg": "Restafval naar buiten\\!",
+    "chat_name": "Goudenregen"
+  },
+  "GFT_G_jan": {
+    "start_date_month": 1,
+    "start_date_day": 14,
+    "start_date_year": 2026,
+    "msg_every_x_days": 999999,
+    "msg": "GFT naar buiten\\!",
+    "chat_name": "Goudenregen"
+  },
+  "GFT_G_standaard": {
+    "start_date_month": 2,
+    "start_date_day": 11,
+    "start_date_year": 2026,
+    "msg_every_x_days": 14,
+    "msg": "GFT naar buiten\\!",
+    "chat_name": "Goudenregen"
+  },
+  "GFT_G_exception": {
+    "start_date_month": 2,
+    "start_date_day": 25,
+    "start_date_year": 2026,
+    "msg_every_x_days": 99999,
+    "msg": "Nvm, geen GFT vandaag\\!",
+    "chat_name": "Goudenregen"
+  },
+  "Papier_G": {
+    "start_date_month": 1,
+    "start_date_day": 11,
+    "start_date_year": 2026,
+    "msg_every_x_days": 28,
+    "msg": "Papier en karton naar buiten\\!",
+    "chat_name": "Goudenregen"
+  },
+  "Papier_G_exception": {
+    "start_date_month": 4,
+    "start_date_day": 3,
+    "start_date_year": 2026,
+    "msg_every_x_days": 14,
+    "msg": "Papier en karton naar buiten\\!",
+    "chat_name": "Goudenregen"
+  },
+  "Papier_G_exception2": {
+    "start_date_month": 4,
+    "start_date_day": 5,
+    "start_date_year": 2026,
+    "msg_every_x_days": 99999,
+    "msg": "Nvm, geen Papier en karton vandaag\\!",
     "chat_name": "Goudenregen"
   }
 }

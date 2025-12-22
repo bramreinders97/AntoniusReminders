@@ -52,7 +52,7 @@
     "start_date_day": 11,
     "start_date_year": 2026,
     "msg_every_x_days": 999999,
-    "msg": "Nevermind, geen GFT (uitzondering)\\!",
+    "msg": "Nevermind, geen GFT \\(uitzondering\\)\\!",
     "chat_name": "Antonius"
   },
   "GFT_exception2": {
@@ -60,7 +60,7 @@
     "start_date_day": 16,
     "start_date_year": 2026,
     "msg_every_x_days": 999999,
-    "msg": "Nevermind, geen GFT (uitzondering)\\!",
+    "msg": "Nevermind, geen GFT \\(uitzondering\\)\\!",
     "chat_name": "Antonius"
   },
   "KatPil": {

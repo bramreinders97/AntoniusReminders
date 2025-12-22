@@ -49,7 +49,7 @@
   },
   "GFT_exception1": {
     "start_date_month": 2,
-    "start_date_day": 11,
+    "start_date_day": 10,
     "start_date_year": 2026,
     "msg_every_x_days": 999999,
     "msg": "Nevermind, geen GFT \\(uitzondering\\)\\!",
@@ -57,7 +57,7 @@
   },
   "GFT_exception2": {
     "start_date_month": 12,
-    "start_date_day": 16,
+    "start_date_day": 15,
     "start_date_year": 2026,
     "msg_every_x_days": 999999,
     "msg": "Nevermind, geen GFT \\(uitzondering\\)\\!",

@@ -1,8 +1,8 @@
 {
   "Papier_Karton": {
-    "start_date_month": 11,
-    "start_date_day": 24,
-    "start_date_year": 2024,
+    "start_date_month": 1,
+    "start_date_day": 20,
+    "start_date_year": 2026,
     "msg_every_x_days": 28,
     "msg": "Reminder: Papier en Karton moet naar de straat\\!",
     "chat_name": "Antonius"

@@ -94,5 +94,29 @@
     "msg_every_x_days": 999999,
     "msg": "Restafval naar buiten\\!",
     "chat_name": "Goudenregen"
+  },
+  "GFT_G_jan": {
+    "start_date_month": 1,
+    "start_date_day": 14,
+    "start_date_year": 2026,
+    "msg_every_x_days": 999999,
+    "msg": "GFT naar buiten\\!",
+    "chat_name": "Goudenregen"
+  },
+  "GFT_G_standaard": {
+    "start_date_month": 2,
+    "start_date_day": 11,
+    "start_date_year": 2026,
+    "msg_every_x_days": 14,
+    "msg": "GFT naar buiten\\!",
+    "chat_name": "Goudenregen"
+  },
+  "GFT_G_exception": {
+    "start_date_month": 2,
+    "start_date_day": 25,
+    "start_date_year": 2026,
+    "msg_every_x_days": 99999,
+    "msg": "Nvm, geen GFT vandaag\\!",
+    "chat_name": "Goudenregen"
   }
 }

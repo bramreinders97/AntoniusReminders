@@ -118,5 +118,29 @@
     "msg_every_x_days": 99999,
     "msg": "Nvm, geen GFT vandaag\\!",
     "chat_name": "Goudenregen"
+  },
+  "Papier_G": {
+    "start_date_month": 1,
+    "start_date_day": 11,
+    "start_date_year": 2026,
+    "msg_every_x_days": 28,
+    "msg": "Papier en karton naar buiten\\!",
+    "chat_name": "Goudenregen"
+  },
+  "Papier_G_exception": {
+    "start_date_month": 4,
+    "start_date_day": 3,
+    "start_date_year": 2026,
+    "msg_every_x_days": 14,
+    "msg": "Papier en karton naar buiten\\!",
+    "chat_name": "Goudenregen"
+  },
+  "Papier_G_exception2": {
+    "start_date_month": 4,
+    "start_date_day": 5,
+    "start_date_year": 2026,
+    "msg_every_x_days": 99999,
+    "msg": "Nvm, geen Papier en karton vandaag\\!",
+    "chat_name": "Goudenregen"
   }
 }

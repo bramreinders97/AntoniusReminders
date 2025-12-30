@@ -131,7 +131,7 @@
     "start_date_month": 4,
     "start_date_day": 3,
     "start_date_year": 2026,
-    "msg_every_x_days": 14,
+    "msg_every_x_days": 99999,
     "msg": "Papier en karton naar buiten\\!",
     "chat_name": "Goudenregen"
   },
@@ -141,6 +141,22 @@
     "start_date_year": 2026,
     "msg_every_x_days": 99999,
     "msg": "Nvm, geen Papier en karton vandaag\\!",
+    "chat_name": "Goudenregen"
+  },
+  "Poets1": {
+    "start_date_month": 6,
+    "start_date_day": 6,
+    "start_date_year": 2025,
+    "msg_every_x_days": 14,
+    "msg": "Poetstaken dit weekend:\n\nAnne: Beneden\nBram: 1e etage \\(min logeer\\) plus zolder",
+    "chat_name": "Goudenregen"
+  },
+"Poets2": {
+    "start_date_month": 6,
+    "start_date_day": 13,
+    "start_date_year": 2025,
+    "msg_every_x_days": 14,
+    "msg": "Poetstaken dit weekend:\n\nAnne: 1e etage\nBram: Beneden",
     "chat_name": "Goudenregen"
   }
 }

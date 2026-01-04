@@ -158,5 +158,45 @@
     "msg_every_x_days": 14,
     "msg": "Poetstaken dit weekend:\n\nAnne: 1e etage\nBram: Beneden",
     "chat_name": "Goudenregen"
-  }
+  },
+  "Kattenbak_Anne_1": {
+  "start_date_month": 1,
+  "start_date_day": 3,
+  "start_date_year": 2026,
+  "msg_every_x_days": 4,
+  "msg": "Kattenbak verschonen: Anne",
+  "chat_name": "Goudenregen"
+},
+"Kattenbak_Anne_2": {
+  "start_date_month": 1,
+  "start_date_day": 4,
+  "start_date_year": 2026,
+  "msg_every_x_days": 4,
+  "msg": "Kattenbak verschonen: Anne",
+  "chat_name": "Goudenregen"
+},
+"Kattenbak_Bram_1": {
+  "start_date_month": 1,
+  "start_date_day": 5,
+  "start_date_year": 2026,
+  "msg_every_x_days": 4,
+  "msg": "Kattenbak verschonen: Bram",
+  "chat_name": "Goudenregen"
+},
+"Kattenbak_Bram_2": {
+  "start_date_month": 1,
+  "start_date_day": 6,
+  "start_date_year": 2026,
+  "msg_every_x_days": 4,
+  "msg": "Kattenbak verschonen: Bram",
+  "chat_name": "Goudenregen"
+},
+"Kattenbak_Grind": {
+  "start_date_month": 1,
+  "start_date_day": 3,
+  "start_date_year": 2026,
+  "msg_every_x_days": 7,
+  "msg": "Vandaag grind kattenbak vervangen!",
+  "chat_name": "Goudenregen"
+}
 }

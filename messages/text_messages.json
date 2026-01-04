@@ -196,7 +196,7 @@
   "start_date_day": 3,
   "start_date_year": 2026,
   "msg_every_x_days": 7,
-  "msg": "Vandaag grind kattenbak vervangen!",
+  "msg": "Vandaag grind kattenbak vervangen\\!",
   "chat_name": "Goudenregen"
 }
 }

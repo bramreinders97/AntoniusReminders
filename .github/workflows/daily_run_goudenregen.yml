@@ -2,7 +2,7 @@ name: Daily Telegram Bot – Goudenregen
 
 on:
   schedule:
-    - cron: '0 10 * * *'
+    - cron: '05 14 * * *'
   workflow_dispatch:
 
 jobs:

@@ -10,7 +10,6 @@
 ```
 
 ### Run tests
-**Load Antonius environment (default):**
 ```python tests/test_specific_date.py```
 
 OR 

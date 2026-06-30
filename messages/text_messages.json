@@ -1,202 +1,218 @@
 {
-  "Papier_Karton": {
-    "start_date_month": 1,
-    "start_date_day": 20,
-    "start_date_year": 2026,
-    "msg_every_x_days": 28,
-    "msg": "Reminder: Papier en Karton moet naar de straat\\!",
-    "chat_name": "Antonius"
-  },
-  "Restafval": {
-    "start_date_month": 1,
-    "start_date_day": 7,
-    "start_date_year": 2026,
-    "msg_every_x_days": 14,
-    "msg": "Reminder: Restafval moet naar de straat\\!",
-    "chat_name": "Antonius"
-  },
-  "Restafval_16_mei": {
-    "start_date_month": 5,
-    "start_date_day": 15,
-    "start_date_year": 2026,
-    "msg_every_x_days": 999999,
-    "msg": "Reminder: Restafval moet naar de straat\\!",
-    "chat_name": "Antonius"
-  },
-  "Restafval_exception": {
-    "start_date_month": 5,
-    "start_date_day": 13,
-    "start_date_year": 2026,
-    "msg_every_x_days": 999999,
-    "msg": "Nevermind, geen restafval, ze komen zaterdag\\!",
-    "chat_name": "Antonius"
-  },
-  "GFT_3_jan": {
-    "start_date_month": 1,
-    "start_date_day": 2,
-    "start_date_year": 2026,
-    "msg_every_x_days": 999999,
-    "msg": "Reminder: GFT moet naar de straat\\!",
-    "chat_name": "Antonius"
-  },
-  "GFT_standaard": {
-    "start_date_month": 1,
-    "start_date_day": 27,
-    "start_date_year": 2026,
-    "msg_every_x_days": 14,
-    "msg": "Reminder: GFT moet naar de straat\\!",
-    "chat_name": "Antonius"
-  },
-  "GFT_exception1": {
-    "start_date_month": 2,
-    "start_date_day": 10,
-    "start_date_year": 2026,
-    "msg_every_x_days": 999999,
-    "msg": "Nevermind, geen GFT \\(uitzondering\\)\\!",
-    "chat_name": "Antonius"
-  },
-  "GFT_exception2": {
-    "start_date_month": 12,
-    "start_date_day": 15,
-    "start_date_year": 2026,
-    "msg_every_x_days": 999999,
-    "msg": "Nevermind, geen GFT \\(uitzondering\\)\\!",
-    "chat_name": "Antonius"
-  },
-  "KatPil": {
-    "start_date_month": 6,
-    "start_date_day": 12,
-    "start_date_year": 2025,
-    "msg_every_x_days": 90,
-    "msg": "Katto ontwormingspil geven\\!",
-    "chat_name": "Antonius"
-  },
-  "Restafval_G": {
-    "start_date_month": 1,
-    "start_date_day": 7,
-    "start_date_year": 2026,
-    "msg_every_x_days": 14,
-    "msg": "Restafval naar buiten\\!",
-    "chat_name": "Goudenregen"
-  },
-  "Restafval_exception1": {
-    "start_date_month": 5,
-    "start_date_day": 13,
-    "start_date_year": 2026,
-    "msg_every_x_days": 999999,
-    "msg": "Nvm, geen rest vandaag\\!",
-    "chat_name": "Goudenregen"
-  },
-  "Restafval_exception2": {
-    "start_date_month": 5,
-    "start_date_day": 15,
-    "start_date_year": 2026,
-    "msg_every_x_days": 999999,
-    "msg": "Restafval naar buiten\\!",
-    "chat_name": "Goudenregen"
-  },
-  "GFT_G_jan": {
-    "start_date_month": 1,
-    "start_date_day": 14,
-    "start_date_year": 2026,
-    "msg_every_x_days": 999999,
-    "msg": "GFT naar buiten\\!",
-    "chat_name": "Goudenregen"
-  },
-  "GFT_G_standaard": {
-    "start_date_month": 2,
-    "start_date_day": 11,
-    "start_date_year": 2026,
-    "msg_every_x_days": 14,
-    "msg": "GFT naar buiten\\!",
-    "chat_name": "Goudenregen"
-  },
-  "GFT_G_exception": {
-    "start_date_month": 2,
-    "start_date_day": 25,
-    "start_date_year": 2026,
-    "msg_every_x_days": 99999,
-    "msg": "Nvm, geen GFT vandaag\\!",
-    "chat_name": "Goudenregen"
-  },
-  "Papier_G": {
-    "start_date_month": 1,
-    "start_date_day": 11,
-    "start_date_year": 2026,
-    "msg_every_x_days": 28,
-    "msg": "Papier en karton naar buiten\\!",
-    "chat_name": "Goudenregen"
-  },
-  "Papier_G_exception": {
-    "start_date_month": 4,
-    "start_date_day": 3,
-    "start_date_year": 2026,
-    "msg_every_x_days": 99999,
-    "msg": "Papier en karton naar buiten\\!",
-    "chat_name": "Goudenregen"
-  },
-  "Papier_G_exception2": {
-    "start_date_month": 4,
-    "start_date_day": 5,
-    "start_date_year": 2026,
-    "msg_every_x_days": 99999,
-    "msg": "Nvm, geen Papier en karton vandaag\\!",
-    "chat_name": "Goudenregen"
-  },
-  "Poets1": {
-    "start_date_month": 6,
-    "start_date_day": 6,
-    "start_date_year": 2025,
-    "msg_every_x_days": 14,
-    "msg": "Poetstaken dit weekend:\n\nAnne: Beneden\nBram: 1e etage \\(min logeer\\) plus zolder",
-    "chat_name": "Goudenregen"
-  },
-"Poets2": {
-    "start_date_month": 6,
-    "start_date_day": 13,
-    "start_date_year": 2025,
-    "msg_every_x_days": 14,
-    "msg": "Poetstaken dit weekend:\n\nAnne: 1e etage\nBram: Beneden",
-    "chat_name": "Goudenregen"
-  },
-  "Kattenbak_Anne_1": {
-  "start_date_month": 1,
-  "start_date_day": 3,
-  "start_date_year": 2026,
-  "msg_every_x_days": 4,
-  "msg": "Kattenbak verschonen: Anne",
-  "chat_name": "Goudenregen"
-},
-"Kattenbak_Anne_2": {
-  "start_date_month": 1,
-  "start_date_day": 4,
-  "start_date_year": 2026,
-  "msg_every_x_days": 4,
-  "msg": "Kattenbak verschonen: Anne",
-  "chat_name": "Goudenregen"
-},
-"Kattenbak_Bram_1": {
-  "start_date_month": 1,
-  "start_date_day": 5,
-  "start_date_year": 2026,
-  "msg_every_x_days": 4,
-  "msg": "Kattenbak verschonen: Bram",
-  "chat_name": "Goudenregen"
-},
-"Kattenbak_Bram_2": {
-  "start_date_month": 1,
-  "start_date_day": 6,
-  "start_date_year": 2026,
-  "msg_every_x_days": 4,
-  "msg": "Kattenbak verschonen: Bram",
-  "chat_name": "Goudenregen"
-},
-"Kattenbak_Grind": {
-  "start_date_month": 1,
-  "start_date_day": 3,
-  "start_date_year": 2026,
-  "msg_every_x_days": 7,
-  "msg": "Vandaag grind kattenbak vervangen\\!",
-  "chat_name": "Goudenregen"
-}
+    "Papier_Karton": {
+        "start_date_month": 1,
+        "start_date_day": 20,
+        "start_date_year": 2026,
+        "msg_every_x_days": 28,
+        "msg": "Reminder: Papier en Karton moet naar de straat\\!",
+        "chat_name": "Antonius"
+    },
+    "Restafval": {
+        "start_date_month": 1,
+        "start_date_day": 7,
+        "start_date_year": 2026,
+        "msg_every_x_days": 14,
+        "msg": "Reminder: Restafval moet naar de straat\\!",
+        "chat_name": "Antonius"
+    },
+    "Restafval_16_mei": {
+        "start_date_month": 5,
+        "start_date_day": 15,
+        "start_date_year": 2026,
+        "msg_every_x_days": 999999,
+        "msg": "Reminder: Restafval moet naar de straat\\!",
+        "chat_name": "Antonius"
+    },
+    "Restafval_exception": {
+        "start_date_month": 5,
+        "start_date_day": 13,
+        "start_date_year": 2026,
+        "msg_every_x_days": 999999,
+        "msg": "Nevermind, geen restafval, ze komen zaterdag\\!",
+        "chat_name": "Antonius"
+    },
+    "GFT_3_jan": {
+        "start_date_month": 1,
+        "start_date_day": 2,
+        "start_date_year": 2026,
+        "msg_every_x_days": 999999,
+        "msg": "Reminder: GFT moet naar de straat\\!",
+        "chat_name": "Antonius"
+    },
+    "GFT_standaard": {
+        "start_date_month": 1,
+        "start_date_day": 27,
+        "start_date_year": 2026,
+        "msg_every_x_days": 14,
+        "msg": "Reminder: GFT moet naar de straat\\!",
+        "chat_name": "Antonius"
+    },
+    "GFT_exception1": {
+        "start_date_month": 2,
+        "start_date_day": 10,
+        "start_date_year": 2026,
+        "msg_every_x_days": 999999,
+        "msg": "Nevermind, geen GFT \\(uitzondering\\)\\!",
+        "chat_name": "Antonius"
+    },
+    "GFT_exception2": {
+        "start_date_month": 12,
+        "start_date_day": 15,
+        "start_date_year": 2026,
+        "msg_every_x_days": 999999,
+        "msg": "Nevermind, geen GFT \\(uitzondering\\)\\!",
+        "chat_name": "Antonius"
+    },
+    "KatPil": {
+        "start_date_month": 6,
+        "start_date_day": 12,
+        "start_date_year": 2025,
+        "msg_every_x_days": 90,
+        "msg": "Katto ontwormingspil geven\\!",
+        "chat_name": "Antonius"
+    },
+    "Restafval_G": {
+        "start_date_month": 1,
+        "start_date_day": 7,
+        "start_date_year": 2026,
+        "msg_every_x_days": 14,
+        "msg": "Restafval naar buiten\\!",
+        "chat_name": "Goudenregen"
+    },
+    "Restafval_exception1": {
+        "start_date_month": 5,
+        "start_date_day": 13,
+        "start_date_year": 2026,
+        "msg_every_x_days": 999999,
+        "msg": "Nvm, geen rest vandaag\\!",
+        "chat_name": "Goudenregen"
+    },
+    "Restafval_exception2": {
+        "start_date_month": 5,
+        "start_date_day": 15,
+        "start_date_year": 2026,
+        "msg_every_x_days": 999999,
+        "msg": "Restafval naar buiten\\!",
+        "chat_name": "Goudenregen"
+    },
+    "GFT_G_jan": {
+        "start_date_month": 1,
+        "start_date_day": 14,
+        "start_date_year": 2026,
+        "msg_every_x_days": 999999,
+        "msg": "GFT naar buiten\\!",
+        "chat_name": "Goudenregen"
+    },
+    "GFT_G_standaard": {
+        "start_date_month": 2,
+        "start_date_day": 11,
+        "start_date_year": 2026,
+        "msg_every_x_days": 14,
+        "msg": "GFT naar buiten\\!",
+        "chat_name": "Goudenregen"
+    },
+    "GFT_G_exception": {
+        "start_date_month": 2,
+        "start_date_day": 25,
+        "start_date_year": 2026,
+        "msg_every_x_days": 99999,
+        "msg": "Nvm, geen GFT vandaag\\!",
+        "chat_name": "Goudenregen"
+    },
+    "Papier_G": {
+        "start_date_month": 1,
+        "start_date_day": 11,
+        "start_date_year": 2026,
+        "msg_every_x_days": 28,
+        "msg": "Papier en karton naar buiten\\!",
+        "chat_name": "Goudenregen"
+    },
+    "Papier_G_exception": {
+        "start_date_month": 4,
+        "start_date_day": 3,
+        "start_date_year": 2026,
+        "msg_every_x_days": 99999,
+        "msg": "Papier en karton naar buiten\\!",
+        "chat_name": "Goudenregen"
+    },
+    "Papier_G_exception2": {
+        "start_date_month": 4,
+        "start_date_day": 5,
+        "start_date_year": 2026,
+        "msg_every_x_days": 99999,
+        "msg": "Nvm, geen Papier en karton vandaag\\!",
+        "chat_name": "Goudenregen"
+    },
+    "Poets1": {
+        "start_date_month": 6,
+        "start_date_day": 6,
+        "start_date_year": 2025,
+        "msg_every_x_days": 28,
+        "msg": "Poetstaken dit weekend \\(alles\\):\n\nAnne: 1e etage\nBram: Beneden",
+        "chat_name": "Goudenregen"
+    },
+    "Poets2": {
+        "start_date_month": 6,
+        "start_date_day": 13,
+        "start_date_year": 2025,
+        "msg_every_x_days": 28,
+        "msg": "Poetstaken dit weekend \\(alleen grond\\):\n\nAnne: 1e etage\nBram: Beneden",
+        "chat_name": "Goudenregen"
+    },
+    "Poets3": {
+        "start_date_month": 6,
+        "start_date_day": 20,
+        "start_date_year": 2025,
+        "msg_every_x_days": 28,
+        "msg": "Poetstaken dit weekend \\(alles\\):\n\nAnne: Beneden\nBram: 1e etage \\(min logeer\\) plus zolder",
+        "chat_name": "Goudenregen"
+    },
+    "Poets4": {
+        "start_date_month": 6,
+        "start_date_day": 27,
+        "start_date_year": 2025,
+        "msg_every_x_days": 28,
+        "msg": "Poetstaken dit weekend \\(alleen grond\\):\n\nAnne: Beneden\nBram: 1e etage \\(min logeer\\) plus zolder ",
+        "chat_name": "Goudenregen"
+    },
+    "Kattenbak_Anne_1": {
+        "start_date_month": 1,
+        "start_date_day": 3,
+        "start_date_year": 2026,
+        "msg_every_x_days": 4,
+        "msg": "Kattenbak verschonen: Anne",
+        "chat_name": "Goudenregen"
+    },
+    "Kattenbak_Anne_2": {
+        "start_date_month": 1,
+        "start_date_day": 4,
+        "start_date_year": 2026,
+        "msg_every_x_days": 4,
+        "msg": "Kattenbak verschonen: Anne",
+        "chat_name": "Goudenregen"
+    },
+    "Kattenbak_Bram_1": {
+        "start_date_month": 1,
+        "start_date_day": 5,
+        "start_date_year": 2026,
+        "msg_every_x_days": 4,
+        "msg": "Kattenbak verschonen: Bram",
+        "chat_name": "Goudenregen"
+    },
+    "Kattenbak_Bram_2": {
+        "start_date_month": 1,
+        "start_date_day": 6,
+        "start_date_year": 2026,
+        "msg_every_x_days": 4,
+        "msg": "Kattenbak verschonen: Bram",
+        "chat_name": "Goudenregen"
+    },
+    "Kattenbak_Grind": {
+        "start_date_month": 1,
+        "start_date_day": 3,
+        "start_date_year": 2026,
+        "msg_every_x_days": 7,
+        "msg": "Vandaag grind kattenbak vervangen\\!",
+        "chat_name": "Goudenregen"
+    }
 }
